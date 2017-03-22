@@ -3,7 +3,7 @@ Demonstrator for Spring Boot, Spring Data, JPA with Jackson JSON REST API
 
 ## Technologies
 
-- Java
+- Groovy, Java
 - JPA with hibernate provider
 - Spring Data, Boot
 - Gradle
