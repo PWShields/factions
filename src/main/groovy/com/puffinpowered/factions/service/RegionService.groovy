@@ -9,4 +9,6 @@ interface RegionService {
 
     Region findOne(Long id)
 
+    Set<Region> findAll()
+
 }

@@ -27,8 +27,11 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile("org.springframework.boot:spring-boot-devtools")
+	compile("org.spockframework:spock-spring")
 	compile('org.codehaus.groovy:groovy')
+	compile('org.spockframework:spock-core:1.0-groovy-2.4')
 	runtime('com.h2database:h2')
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+
 }

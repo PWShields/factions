@@ -1,9 +1,8 @@
 package com.puffinpowered.factions.domain
 
-import javax.persistence.Entity
-import javax.persistence.GeneratedValue
-import javax.persistence.Id
-import javax.persistence.Table
+import com.fasterxml.jackson.annotation.JsonIgnore
+
+import javax.persistence.*
 /**
  * Created by pshields on 21/03/2017.
  */
@@ -18,6 +17,11 @@ class Region {
     String name
 
     RegionType type
+
+    @JsonIgnore()
+    @ManyToOne
+    Faction faction
+
 
 
 }

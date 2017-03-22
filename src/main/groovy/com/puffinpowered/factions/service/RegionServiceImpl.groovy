@@ -18,4 +18,8 @@ class RegionServiceImpl implements RegionService{
        return regionRepository.findOne(id)
     }
 
+
+    Set<Region> findAll() {
+        return regionRepository.findAll()
+    }
 }

@@ -13,9 +13,21 @@ Demonstrator for Spring Boot, Spring Data, JPA with Jackson JSON REST API
 
 ## Usage
 
-To see all information for one Region:
+View all regions:
 
-../region/{id}
+http://localhost:8081/region/list
+
+View all factions
+
+http://localhost:8081/faction/list
+
+View information for one region:
+
+http://localhost:8081/region/1
+
+View information for one faction
+
+http://localhost:8081/faction/1
 
 ## Running Locally
 
